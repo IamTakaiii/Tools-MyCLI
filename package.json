@@ -4,6 +4,9 @@
 	"type": "module",
 	"private": true,
 	"version": "1.0.0",
+	"bin": {
+		"mcli": "index.ts"
+	},
 	"devDependencies": {
 		"@types/bun": "latest",
 		"@types/degit": "^2.8.6"
