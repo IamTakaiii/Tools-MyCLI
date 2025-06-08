@@ -11,6 +11,10 @@
 		"@types/bun": "latest",
 		"@types/degit": "^2.8.6"
 	},
+	"scripts": {
+		"build:linux": "bun build --compile --target=bun-linux-x64 ./index.ts --outfile ./bin/takaicli-linux",
+		"build:macos": "bun build --compile --target=bun-darwin-arm64 ./index.ts --outfile ./bin/takaicli-macos"
+	},
 	"peerDependencies": {
 		"typescript": "^5"
 	},
