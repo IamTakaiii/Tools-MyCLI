@@ -1,3 +1,5 @@
+#!/usr/bin/env bun
+
 import packageJson from "./package.json" assert { type: "json" };
 
 import { program } from "commander";

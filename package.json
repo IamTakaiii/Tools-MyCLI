@@ -1,11 +1,11 @@
 {
-	"name": "tool-filescli",
+	"name": "takaicli",
 	"module": "index.ts",
 	"type": "module",
 	"private": true,
 	"version": "1.0.0",
 	"bin": {
-		"mcli": "index.ts"
+		"tk": "index.ts"
 	},
 	"devDependencies": {
 		"@types/bun": "latest",
